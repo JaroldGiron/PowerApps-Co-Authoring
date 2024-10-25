@@ -1,2 +1,11 @@
 Screen4 As screen:
 
+    Label1 As label:
+        Height: =376
+        Size: =50
+        Text: ="Hello World"
+        Width: =952
+        X: =40
+        Y: =40
+        ZIndex: =1
+
