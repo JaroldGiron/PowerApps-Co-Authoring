@@ -1,0 +1,38 @@
+{
+  "c2c09c6b-2e13-4755-bc58-8b85decb5908": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/jayawan/releases/v1.0.1697/1.0.1697.3786/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://ts.accenture.com/sites/PowerPlatform4572": {
+        "dataSources": {
+          "Configuration_Table": {
+            "tableName": "aca6a6ca-d72b-4df7-8182-62b0b9726314"
+          },
+          "Costing_Table": {
+            "tableName": "6f2f5dbc-7f3e-4b18-847d-a7f32490508f"
+          },
+          "LCR_Table": {
+            "tableName": "39f81d18-f50a-41da-8660-35db668f1620"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Configuration_Table",
+      "Costing_Table",
+      "LCR_Table"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "c2c09c6b-2e13-4755-bc58-8b85decb5908"
+  }
+}

@@ -1,0 +1,65 @@
+Screen1 As screen:
+
+    Gallery3 As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Height: =597
+        Items: =Filter(Configuration_Table, Complexity.Value = dropComplexity.Selected.Value)
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =52
+        Width: =1288
+        X: =40
+        Y: =105
+        ZIndex: =1
+
+        Label2 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.Costing_Type1.Value
+            X: =24
+            Y: =5
+            ZIndex: =1
+
+        Label2_1 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.Complexity.Value
+            X: =174
+            Y: =5
+            ZIndex: =2
+
+        Label2_2 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.Role.Value
+            Width: =352
+            X: =352
+            Y: =5
+            ZIndex: =3
+
+        Label2_3 As label:
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.Actual_Hours
+            Width: =352
+            X: =720
+            Y: =5
+            ZIndex: =4
+
+        Dropdown2 As dropdown:
+            Items: =DropDownSample
+            OnSelect: =Select(Parent)
+            Width: =286
+            X: =830
+            Y: =5
+            ZIndex: =5
+
+    dropComplexity As dropdown:
+        Items: =["Low", "Medium", "High"]
+        X: =291
+        Y: =48
+        ZIndex: =2
+
+    Label3 As label:
+        Text: ="Select Complexity"
+        Width: =218
+        X: =54
+        Y: =48
+        ZIndex: =3
+
