@@ -4,7 +4,7 @@ Screen4 As screen:
         Height: =376
         Size: =50
         Text: ="Hello World"
-        Width: =952
+        Width: =576
         X: =40
         Y: =40
         ZIndex: =1
@@ -14,16 +14,16 @@ Screen4 As screen:
         Size: =50
         Text: ="Other World"
         Width: =952
-        X: =414
-        Y: =291
+        X: =177
+        Y: =392
         ZIndex: =2
 
     Label1_2 As label:
         Height: =376
         Size: =50
         Text: ="Other World"
-        Width: =952
-        X: =414
+        Width: =685
+        X: =681
         Y: =54
         ZIndex: =3
 
