@@ -6,3 +6,9 @@ Screen3 As screen:
         Y: =40
         ZIndex: =1
 
+    Label5 As label:
+        Text: ="Test2"
+        X: =64
+        Y: =108
+        ZIndex: =2
+
