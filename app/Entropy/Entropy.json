@@ -14,11 +14,13 @@
     "Label2_3": 12,
     "Label3": 5,
     "Screen1": 4,
-    "Screen2": 14
+    "Screen2": 14,
+    "Screen3": 15,
+    "Screen4": 16
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/25/2024 05:26:52",
+  "HeaderLastSavedDateTimeUTC": "10/25/2024 05:36:16",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "c2c09c6b-2e13-4755-bc58-8b85decb5908": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/bffba70ef3664d74b0d736cce1686a3a\""
@@ -56,7 +58,9 @@
     "Label2_3": {},
     "Label3": {},
     "Screen1": {},
-    "Screen2": {}
+    "Screen2": {},
+    "Screen3": {},
+    "Screen4": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
@@ -73,7 +77,9 @@
     "Label2_3": 7,
     "Label3": 0,
     "Screen1": 0,
-    "Screen2": 0
+    "Screen2": 0,
+    "Screen3": 0,
+    "Screen4": 0
   },
   "ResourcesJsonIndices": {
     "Image-SampleImage": 0
