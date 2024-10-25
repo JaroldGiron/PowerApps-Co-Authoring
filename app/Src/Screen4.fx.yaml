@@ -9,3 +9,12 @@ Screen4 As screen:
         Y: =40
         ZIndex: =1
 
+    Label1_1 As label:
+        Height: =376
+        Size: =50
+        Text: ="Other World"
+        Width: =952
+        X: =414
+        Y: =291
+        ZIndex: =2
+
